@@ -6,18 +6,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="prepaid.css">
+	<link rel="stylesheet" type="text/css" href="./css/prepaid.css">
 <style>
 #sub3,#sub4,#sub5,#sub6,#sub7{
 position: absolute;
-background-color:#FOFFFO;
-top:370px;
-left:130px;
+background-color:violet;
 width: 1220px;
 padding: 10px;
 height:230px;
 color: black;
 display: none;
+    top: 370px;
+    left: 130px;
 }
 .btnn-group button {
   background-color: #4CAF50; /* Green background */
@@ -33,17 +33,9 @@ display: none;
   border-bottom: none; /* Prevent double borders */
 }
 
-
 /* Add a background color on hover */
 .btnn-group button:hover {
   background-color: #3e8e41;
-}
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  color:red;
-  background-color:white;
 }
 </style>
 <script language="JavaScript">
@@ -71,20 +63,20 @@ document.getElementById(id).style.display = visibility;
 		</button>
                 <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Recharge page</a></li>
+                <li class="breadcrumb-item"><a href="recharge.html">Recharge page</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Prepaid</li>
                 </ol>
                 </nav>
 		<div class="collapse navbar-collapse" id="main-navigation">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="./dashboard.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="./aboutus.html">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="./faq.html">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -99,20 +91,19 @@ document.getElementById(id).style.display = visibility;
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a href="#"><img class="d-block w-100" src="images/offer1.jpg" width="60" height="300" alt="First slide"></a>
-      <div class="top-right"><h2>&#8377;1699 for 575GB</h2></div>
+      <img class="d-block w-100" src="images/offer1.png" width="60" height="300" alt="First slide">
     </div>
     <div class="carousel-item">
-      <a href="#"><img class="d-block w-100" src="images/offer2.jpg"  width="60" height="300" alt="Second slide"></a>
-    <div class="top-right"><h2>&#8377;399 for 126GB</h2></div></div>
+      <img class="d-block w-100" src="images/offer2.jpg"  width="60" height="300" alt="Second slide">
+    </div>
     <div class="carousel-item">
-      <a href="#"><img class="d-block w-100" src="images/offer3.jpg"  width="60" height="300" alt="Third slide"></a>
-   <div class="top-right"><h2>&#8377;149 for 42GB</h2></div> </div>
-     <div class="carousel-item">
-      <div class="top-right"><h2>&#8377;349 for 105GB</h2></div><a href="#"><img class="d-block w-100" src="images/offer4.jpg"  width="60" height="300" alt="Fourth slide"></a>
+      <img class="d-block w-100" src="images/offer3.png"  width="60" height="300" alt="Third slide">
     </div>
      <div class="carousel-item">
-      <div class="top-right"><h2>&#8377;499 for 135GB</h2></div><a href"#"><img class="d-block w-100" src="images/offer5.jpg"  width="60" height="300" alt="Fifth slide"></a>
+      <img class="d-block w-100" src="images/offer4.png"  width="60" height="300" alt="Fourth slide">
+    </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="images/offer5.png"  width="60" height="300" alt="Fifth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -125,7 +116,7 @@ document.getElementById(id).style.display = visibility;
   </a>
 </div>
 <div id="sub3">
-<table width="1200">
+<table border="1" width="1200">
 <tr>
 <th>GB/day</th>
 <th>28days</th>
@@ -177,7 +168,7 @@ document.getElementById(id).style.display = visibility;
 </table>
 </div>
 <div  id="sub4">
-<table width="1200">
+<table border="1" width="1200">
 <tr>
 <th>GB/day</th>
 <th>28days</th>
@@ -228,7 +219,7 @@ document.getElementById(id).style.display = visibility;
 </table>
 </div>
 <div id="sub5">
-<table  width="1200">
+<table border="1" width="1200">
 <tr>
 <th>GB</th>
 <th>price</th>
@@ -259,7 +250,7 @@ document.getElementById(id).style.display = visibility;
 </table>
 </div>
 <div  id="sub6">
-<table  width="1200">
+<table border="1" width="1200">
 <tr>
 <th>plan</th>
 <th>validity</th>
@@ -297,7 +288,7 @@ document.getElementById(id).style.display = visibility;
 </table>
 </div>
 <div  id="sub7">
-<table  width="1200">
+<table border="1" width="1200">
 <tr>
 <th>plan</th>
 <th>validity</th>
@@ -305,12 +296,12 @@ document.getElementById(id).style.display = visibility;
 </tr>
 <tr>
 <td>Rs. 100 Full Talktime Pack</td>
-<td>lifetime</td>
+<td>lifeime</td>
 <td><a href="#">click here</td>
 </tr>
 <tr>
 <td>Rs. 1000 Full Talktime Pack</td>
-<td>lifetime</td>
+<td>lifeime</td>
 <td><a href="#">click here</td>
 </tr>
 <tr>
