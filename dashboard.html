@@ -10,13 +10,12 @@
     <link rel="shortcut icon" type="image/png" href="#">
   
   
-      <link rel="stylesheet" href="./css/dashboard.css">
+      <link rel="stylesheet" href="./dashboard.css">
 
   
 </head>
 
 <body>
-   
 
   <div class="grid">
   <header class="header">
@@ -47,7 +46,7 @@
   <aside class="sidenav">
     <div class="sidenav__brand">
       <i class="fas fa-phone" sidenav__brand-icon></i>
-      <a class="sidenav__brand-link" href="./dashboard.html">Voiz<span class="text-light">fonica</span></a>
+      <a class="sidenav__brand-link" href="#">Voiz<span class="text-light">fonica</span></a>
       <i class="fas fa-times sidenav__brand-close"></i>
     </div>
     <div class="sidenav__profile">
@@ -56,13 +55,17 @@
     </div>
     <div class="row row--align-v-center row--align-h-center">
       <ul class="navList">
-          <li class="navList__heading"><a href="./recharge.html">Recharge</a><i class="far fa-file-alt"></i></li>
+          <li class="navList__heading"><a href="./iron.png">Recharge</a><i class="far fa-file-alt"></i></li>
          
-        <li class="navList__heading"><a href="./faq.html">FAQ's</a><i class="fas fa-question"></i></li>
+
+        <li class="navList__heading"><a href="./databg.jpg">Offers</a><i class="far fa-envelope"></i></li>
+        
+
+        <li class="navList__heading"><a href="./faq.html">FAQ's</a><i class="fas fa-question"></i></i></li>
         
           
 
-        <li class="navList__heading"><a href="./aboutus.html">About Us</a><i class="fas fa-address-card"></i></li>
+        <li class="navList__heading"><a href="./aboutus.html">About Us</a><i class="fas fa-address-card"></i></i></li>
       </ul>
     </div>
   </aside>
@@ -107,10 +110,17 @@
            <i class="far fa-file-alt"></i>
         </div>
         <div class="overviewCard-description">
-         <a href="pay.html"> <h3 class="overviewCard-title text-light">Pay <strong>Bill</strong></h3></a>
+          <h3 class="overviewCard-title text-light">Pay <strong>Bill</strong></h3>
           </div>
       </div>
-      
+      <div class="overviewCard">
+        <div class="overviewCard-icon overviewCard-icon--calendar">
+           <i class="far fa-calendar-check"></i>
+        </div>
+        <div class="overviewCard-description">
+          <h3 class="overviewCard-title text-light">Next<strong>Bill</strong></h3>
+        </div>
+      </div>
       <div class="overviewCard">
         <div class="overviewCard-icon overviewCard-icon--mail">
            <i class="far fa-envelope"></i>
@@ -128,27 +138,30 @@
           <div class="card__header-title text-light">Recent <strong>Billings</strong>
             <a href="#" class="card__header-link text-bold">View All</a>
           </div>
-          
+          <div class="settings">
+            <div class="settings__block"><i class="fas fa-edit"></i></div>
+            <div class="settings__block"><i class="fas fa-cog"></i></div>
+          </div>
         </div>
         <div class="card">
           <div class="documents">
             <div class="document">
-               <a href="invoice.pdf"><div class="document__img"></div></a>
+              <div class="document__img"></div>
               <div class="document__title">Bill:78645</div>
               <div class="document__date">16/07/2018</div>
             </div>
             <div class="document">
-              <a href="invoice.pdf"> <div class="document__img"></div></a>
+              <div class="document__img"></div>
               <div class="document__title">Bill:68587</div>
               <div class="document__date">15/06/2018</div>
             </div>
             <div class="document">
-              <a href="invoice.pdf"> <div class="document__img"></div></a>
+              <div class="document__img"></div>
               <div class="document__title">Bill:56743</div>
               <div class="document__date">14/05/2018</div>
             </div>
             <div class="document">
-             <a href="invoice.pdf"> <div class="document__img"></div></a>
+              <div class="document__img"></div>
               <div class="document__title">Bill:45567</div>
               <div class="document__date">15/04/2018</div>
             </div>
@@ -160,7 +173,10 @@
           <div class="card__header-title text-light">Monthly(Data) <strong>Spending</strong>
             <a href="#" class="card__header-link text-bold">View All</a>
           </div>
-          
+          <div class="settings">
+            <div class="settings__block"><i class="fas fa-edit"></i></div>
+            <div class="settings__block"><i class="fas fa-cog"></i></div>
+          </div>
         </div>
         <div id="chartdiv"></div>
       </div>
@@ -178,7 +194,7 @@
 
   
 
-    <script  src="./script/script.js"></script>
+    <script  src="./script.js"></script>
 
 
 
