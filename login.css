@@ -1,0 +1,90 @@
+body {
+  margin:0;
+  background:url("https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") ;
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+  margin-top:50px;
+  text-align:left;
+  color:white;
+  font-family:Arial;
+  font-size:30px;
+  padding-left:30px;
+}
+
+form {	
+  margin:auto;
+  margin-top:5px;
+  margin-bottom:5px;
+  display:flex;
+  flex-direction:column;
+  padding:50px;
+  width:100%;
+  background-color:rgba(0,0,0,0.3);
+  color:white;
+  font-family:Arial;
+}
+
+input {
+  padding:10px;
+  border:none;
+  width:90%;
+  border-radius:20px;
+}
+
+.btn {
+  margin-top:10px;
+  border:none;
+  padding:10px;
+  width:100%;
+  border-radius:20px;
+} 
+
+.btn:hover {
+  color:white;
+}
+
+.forget {
+  padding:10px;
+}
+
+.forget a {
+  text-decoration:none;
+  color:white;
+  
+}
+
+.forget a:hover {
+  color:blue;
+}
+
+.footer-copyright {
+padding: 1rem;
+position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+color: white;
+background-color:#589b37;
+color: #ccc;
+}
+
+.features {
+margin:0;
+}
+
+.click-efect {
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: #ED2553;
+   border-radius: 50%;
+}
+#log {
+float:right;
+margin-right:100px;
