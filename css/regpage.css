@@ -1,17 +1,20 @@
 #pageHeader {
-background-color:#589b37;
+	background-color:#589b37;
 	color: white;
+	text-align:center;
 }
+
 #image {
 	background-image: url(../images/reg.jpg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
 }
+
 #form {
 
-width: 50%;
-	margin-left:150px;
+	width: 100%;
+	margin-left:0px;
 	margin:auto;
 	margin-top:5px;
 	margin-bottom:5px;
@@ -22,16 +25,31 @@ width: 50%;
 	color:white;
 	font-family:Arial;
 }
-#head {
-	color: white;
-}
+
 #foot {
 	padding: 1rem;
-position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-color: white;
-background-color:#589b37;
-color: #ccc;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	color: white;
+	background-color:#589b37;
+	color: #ccc;
+}
+
+
+h2 {
+  	margin-top:100px;
+	margin-bottom:100px;
+  	text-align:left;
+  	color:white;
+  	font-family:Arial;
+  	font-size:30px;
+  	padding-left:30px;
+}
+
+.btn {
+	color:white;
+	bottom-margin:20px;
+	text-align:center;
 }
