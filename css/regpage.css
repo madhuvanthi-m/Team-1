@@ -1,0 +1,37 @@
+#pageHeader {
+background-color:#589b37;
+	color: white;
+}
+#image {
+	background-image: url(../images/reg.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+#form {
+
+width: 50%;
+	margin-left:150px;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+	display:flex;
+	flex-direction:column;
+	padding:50px;
+	background-color:rgba(0,0,0,0.3);
+	color:white;
+	font-family:Arial;
+}
+#head {
+	color: white;
+}
+#foot {
+	padding: 1rem;
+position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+color: white;
+background-color:#589b37;
+color: #ccc;
+}
