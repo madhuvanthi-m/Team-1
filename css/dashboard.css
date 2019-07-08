@@ -76,7 +76,7 @@ a {
   border: none;
 }
 .header__avatar {
-  background-image: url("../images/iron.png");
+  background-image: url("./iron.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -199,7 +199,7 @@ a {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .sidenav__profile-avatar {
-  background-image: url("../images/iron.png");
+  background-image: url("./iron.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -270,7 +270,7 @@ a {
   height: 250px;
   color: #FFF;
   background-size: cover;
-  background-image: url("../images/databg.jpg");
+  background-image: url("./databg.jpg");
   margin-bottom: 20px;
 }
 .main-header__intro-wrapper {
