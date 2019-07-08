@@ -22,7 +22,7 @@ body {
 }
 .nav-link,
 .navbar-brand {
-	color: white;
+	color: red;
 	cursor: pointer;
 }
 
@@ -92,14 +92,14 @@ color:blue;
 /*--- footer ---*/
 
 .page-footer {
-	background-color: #589b37;
+	background-color: #222;
 	color: #ccc;
-	padding:1rem;
+	padding: 60px 0 30px;
 }
 
 .footer-copyright {
 	color: #666;
-	padding:1rem;
+	padding: 40px 0;
 }
 
 /*--- media queries ---*/

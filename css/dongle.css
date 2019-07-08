@@ -14,11 +14,7 @@ body {
 }
 .nav-link,
 .navbar-brand {
-	color: white;
-	cursor: pointer;
-}
-.navbar-brands {
-	color: green;
+	color: red;
 	cursor: pointer;
 }
 
@@ -35,7 +31,7 @@ body {
 /*--- header ---*/
 
 .header {
-	background-image: url('images/dongleback.jpg');
+	background-image: url('../images/dongleback.jpg');
 	background-size: cover;
 	background-position: center;
 	position:relative;
@@ -72,7 +68,7 @@ body {
 border:5px yellow;
 height:100px;
 display:inline-block;
-color:green;
+color:red;
 }
 
 
@@ -120,14 +116,14 @@ color:green;
 
 .page-footer {
         margin-top:0;
-	background-color: #589b37;
+	background-color: #222;
 	color: #ccc;
-	padding:1rem;
+	padding: 120px 90px;
 }
 
 .footer-copyright {
 	color: #666;
-	padding:1rem;
+	padding: 80px 80px;
 }
 
 /*--- media queries ---*/
